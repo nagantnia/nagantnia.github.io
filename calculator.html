@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMR</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="header-container">
+        <div class="header morph">
+            Group3
+        </div>
+        <div class="nav morph">
+            <a href="calculator.html">Kalkulator BMR</a>
+            <a href="tentang-kami.html" target="_blank">Tentang Kami</a>
+        </div>
+    </div>
+    <div class="content-container morph">
+        <h1>Kalkulator BMR</h1>
+        <p>Hitung Basal Metabolic Rate dan Total Daily Energy Expenditure Anda.</p>
+        
+        <form id="bmrForm">
+            <div class="form-group">
+                <label for="weight">Berat Badan (kg):</label>
+                <input type="number" id="weight" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="height">Tinggi Badan (cm):</label>
+                <input type="number" id="height" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="age">Usia (tahun):</label>
+                <input type="number" id="age" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="gender">Jenis Kelamin:</label>
+                <select id="gender" required>
+                    <option value="male">Pria</option>
+                    <option value="female">Wanita</option>
+                </select>
+            </div>
+        
+            <div class="form-group">
+                <label for="activity">Tingkat Aktivitas:</label>
+                <select id="activity" required>
+                    <option value="1.2">Sedentari (sedikit atau tidak ada olahraga)</option>
+                    <option value="1.375">Aktif ringan (olahraga ringan 1-3 hari/minggu)</option>
+                    <option value="1.55">Aktif sedang (olahraga moderat 3-5 hari/minggu)</option>
+                    <option value="1.725">Sangat aktif (olahraga keras 6-7 hari/minggu)</option>
+                    <option value="1.9">Super aktif (olahraga sangat keras, pekerjaan fisik, atau latihan dua kali sehari)</option>
+                </select>
+            </div>
+        
+            <button type="submit">Hitung BMR</button>
+        </form>
+        
+        <h2 id="result"></h2>
+    </div>
+</div>
+    <div class="info-section morph">
+        <h2>Apa itu BMR Calculator?</h2>
+        <p>BMR atau Basal Metabolic Rate adalah jumlah kalori minimum yang dibutuhkan tubuh Anda untuk menjalankan fungsi-fungsi dasar seperti bernapas, berdetak jantung, dan menjaga suhu tubuh saat beristirahat total. BMR Calculator membantu Anda menghitung ber apa banyak kalori yang terbakar oleh tubuh Anda setiap hari tanpa melakukan aktivitas fisik apa pun.</p>
+    
+        <h2>Mengapa BMR Penting?</h2>
+        <ul>
+            <p><strong>Dasar Perhitungan Kebutuhan Kalori:</strong> BMR adalah titik awal untuk menghitung total kebutuhan kalori harian Anda. Dengan mengetahui BMR, Anda dapat mengatur asupan kalori untuk mencapai tujuan berat badan Anda.</p>
+            <p><strong>Membuat Rencana Diet yang Efektif:</strong> BMR membantu Anda membuat rencana diet yang disesuaikan dengan kebutuhan tubuh Anda.</p>
+            <p><strong>Memahami Metabolisme:</strong> BMR dapat memberikan gambaran tentang seberapa cepat tubuh Anda membakar kalori.</p>
+        </ul>
+    
+        <h2>Faktor yang Mempengaruhi BMR</h2>
+        <ul>
+            <p><strong>Usia:</strong> BMR cenderung menurun seiring bertambahnya usia.</p>
+            <p><strong>Jenis Kelamin:</strong> Pria umumnya memiliki BMR yang lebih tinggi daripada wanita.</p>
+            <p><strong>Tinggi Badan:</strong> Orang yang lebih tinggi cenderung memiliki BMR yang lebih tinggi.</p>
+            <p><strong>Berat Badan:</strong> Berat badan yang lebih tinggi juga berkorelasi dengan BMR yang lebih tinggi.</p>
+            <p><strong>Massa Otot:</strong> Semakin banyak massa otot, semakin tinggi BMR Anda.</p>
+        </ul>
+    
+        <h2>Memaksimalkan BMR</h2>
+        <ul>
+            <p><strong>Tingkatkan Massa Otot:</strong> Lakukan latihan kekuatan secara teratur.</p>
+            <p><strong>Jangan Kelaparan:</strong> Membatasi kalori secara ekstrem dapat memperlambat metabolisme.</p>
+            <p><strong>Cukup Tidur:</strong> Kurang tidur dapat mengganggu metabolisme.</p>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

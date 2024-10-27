@@ -1,0 +1,172 @@
+/* Gaya umum untuk body */
+body {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('wallpaperflare.com_wallpaper.jpg');
+    background-size: cover; /* Mengisi seluruh layar */
+    background-position: center; /* Memusatkan gambar latar belakang */
+    background-attachment: fixed;
+    position: relative;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay hitam dengan transparansi 30% */
+    z-index: 0; /* Memastikan overlay berada di atas gambar latar belakang */
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.header.morph {
+    animation: morph2 1s ease-out;
+}
+
+.header {
+    color: rgba(52,204,229,255);
+    font-size: 45px;
+    font-weight: 700;
+    filter: brightness(1.3);
+    text-shadow:  0 0 15px rgba(0, 0, 0, 0.979);
+}
+
+.nav {
+    display: flex;
+    filter: brightness(1.3);
+}
+
+.nav.morph {
+    animation: morphOut 1s;
+}
+
+.nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 5px;
+    background-color: transparent;
+    color: rgba(52,204,229,255);
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.979);
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Transisi halus untuk efek hover */
+    z-index: 999;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+/*batas*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: 75px auto;;
+}
+.left-section, .right-section {
+    width: 45%;
+}
+
+.left-section.morph {
+    animation: morph2 1s;
+}
+
+.right-section.morph {
+    animation: morphOut 1s;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    filter: brightness(1);
+}
+.profile img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    filter: brightness(1.1);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.979);
+}
+.profile-info {
+    font-size: 16px;
+    color: antiquewhite;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.979);;
+}
+.profile-info b {
+    display: block;
+    font-size: 25px;
+}
+
+.right-section {
+    margin-top: -80px;
+    filter: brightness(1.5);
+    color: antiquewhite;
+    font-style: 'Rubik'; /* Atur nilai sesuai kebutuhan */
+}
+
+.right-section h2 {
+    font-size: 34px;
+    margin-bottom: 5px;
+    text-shadow: 0 0 50px rgba(0, 0, 0, 0.979);
+}
+.right-section h3 {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.right-section p {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+@keyframes morphIn {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes morphOut {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes morph2 {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
