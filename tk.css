@@ -4,8 +4,8 @@ body {
     margin: 0;
     padding: 0;
     background-image: url('wallpaperflare.com_wallpaper.jpg');
-    background-size: cover; /* Mengisi seluruh layar */
-    background-position: center; /* Memusatkan gambar latar belakang */
+    background-size: cover; 
+    background-position: center; 
     background-attachment: fixed;
     position: relative;
 }
@@ -16,8 +16,9 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Overlay hitam dengan transparansi 30% */
-    z-index: 0; /* Memastikan overlay berada di atas gambar latar belakang */
+    pointer-event: none;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 0; 
 }
 
 
@@ -62,7 +63,7 @@ body {
     font-weight: bold;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s; /* Transisi halus untuk efek hover */
+    transition: background-color 0.3s, color 0.3s; 
     z-index: 999;
 }
 
@@ -119,7 +120,7 @@ body {
     margin-top: -80px;
     filter: brightness(1.5);
     color: antiquewhite;
-    font-style: 'Rubik'; /* Atur nilai sesuai kebutuhan */
+    font-style: 'Rubik'; 
 }
 
 .right-section h2 {
@@ -169,4 +170,44 @@ body {
         transform: translateX(0);
         opacity: 1;
     }
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.473);
+    height: 77px;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    z-index: 99;
+}
+
+.social-media {
+    margin-bottom: 10px;
+    z-index: 99;
+    display: flex;
+    padding: 100px;
+    flex-direction: column; 
+    gap: 100px; 
+}
+
+.footer .social-media a {
+    color: white !important;
+    text-decoration: none;
+    display: flex;
+    padding: 100px;
+    flex-direction: column; 
+    gap: 100px; 
+    z-index: 999;
+}
+
+.social-media a:hover {
+    color: white;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 10px;
 }
