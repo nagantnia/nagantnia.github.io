@@ -1,11 +1,9 @@
-/* Gaya umum untuk body */
 body {
     font-family: 'Rubik', sans-serif;
     margin: 0;
     padding: 0;
     background-image: url('wallpaperflare.com_wallpaper.jpg');
-    background-size: cover; /* Mengisi seluruh layar */
-    background-position: center; /* Memusatkan gambar latar belakang */
+    background-position: center; 
     background-attachment: fixed;
     position: relative;
 }
@@ -16,11 +14,12 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Overlay hitam dengan transparansi 30% */
-    z-index: 0; /* Memastikan overlay berada di atas gambar latar belakang */
+    pointer-event: none;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 0; 
 }
 
-/* Gaya header */
+
 .header-container {
     height: 0px;
     display: flex;
@@ -64,7 +63,7 @@ body {
     font-weight: bold;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s; /* Transisi halus untuk efek hover */
+    transition: background-color 0.3s, color 0.3s;
     z-index: 999;
 }
 
@@ -73,7 +72,7 @@ body {
     color: white;
 }
 
-/* Gaya konten */
+
 .content-container {
     max-width: 600px;
     margin: 100px auto 10px;
@@ -90,7 +89,7 @@ body {
     animation: morphIn 1s;
 }
 
-/* Gaya form */
+
 .form-group {
     display: flex;
     justify-content: space-between;
@@ -108,18 +107,18 @@ body {
     flex: 2;
 }
 
-/* Gaya heading */
+
 h1 {
     text-align: center;
 }
 
-/* Gaya label */
+
 label {
     display: block;
     margin: 10px 0 5px;
 }
 
-/* Gaya input dan select */
+
 input, select {
     width: 100%;
     font-weight: bold;
@@ -129,7 +128,6 @@ input, select {
     border-radius: 10px;
 }
 
-/* Gaya tombol */
 button {
     width: 100%;
     padding: 10px;
@@ -143,20 +141,20 @@ button {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s; /* Transisi halus untuk efek hover */
+    transition: background-color 0.3s; 
 }
 
 button:hover {
     background-color: transparent;
 }
 
-/* Gaya bagian hasil */
+
 #result {
     text-align: center;
     margin-top: 20px;
 }
 
-/* Gaya bagian informasi */
+
 .info-section {
     max-width: 600px;
     margin: 20px auto;
@@ -188,12 +186,12 @@ button:hover {
 
 @keyframes morphIn {
     0% {
-        transform: translateY(100%); /* Mulai dari bawah */
-        opacity: 0; /* Mulai dengan transparan */
+        transform: translateY(100%); /
+        opacity: 0;
     }
     100% {
-        transform: translateY(0); /* Bergerak ke posisi normal */
-        opacity: 1; /* Akhirnya terlihat */
+        transform: translateY(0); 
+        opacity: 1; 
     }
 }
 
@@ -217,4 +215,44 @@ button:hover {
         transform: translateX(0);
         opacity: 1;
     }
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.473);
+    height: 77px;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    z-index: 99;
+}
+
+.social-media {
+    margin-bottom: 10px;
+    z-index: 99;
+    display: flex;
+    padding: 100px;
+    flex-direction: column; 
+    gap: 100px; 
+}
+
+.footer .social-media a {
+    color: white !important;
+    text-decoration: none;
+    display: flex;
+    padding: 100px;
+    flex-direction: column; 
+    gap: 100px; 
+    z-index: 999;
+}
+
+.social-media a:hover {
+    color: white;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 10px;
 }
