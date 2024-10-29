@@ -235,7 +235,16 @@ button:hover {
     display: flex;
     padding: 100px;
     flex-direction: column; 
+    
     gap: 100px; 
+}
+
+.social-media:link{
+	color: white;
+}
+
+.social-media a:link{
+	color: white;
 }
 
 .footer .social-media a {
