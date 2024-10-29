@@ -2,6 +2,6 @@
 Dibuatnya web ini ialah untuk membantu mencapai kesehatan optimal dan tubuh impian
 <h2>Struktur HTML</h2>
 index.html <br> pada halaman ini berisi:<br>
-<ol>sdadwa
- <li><li>
-</ol>awda
+<ol>
+ <li>sdadaw<li>
+</ol>
