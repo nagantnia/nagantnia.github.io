@@ -15,5 +15,5 @@ index.html <br> pada halaman ini berisi:<br>
 </ol>
 <h2>Kreatifitas dan Desain</h2>
 <ol>
- <li>satu<li>dua<li></li>tiga<li>empat</li>
+ <li>satu<li>dua<li>tiga</li><li>empat</li>
 </ol>
