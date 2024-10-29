@@ -6,6 +6,7 @@ index.html <br> pada halaman ini berisi:<br>
  <li>satu<li>dua<li>tiga</li><li>empat</li><li>lima</li>
 </ol>
 <h3>Desain CSS</h3><br>
+<br>
 <ol>
  <li>satu<li>dua<li>tiga</li><li>empat</li><li>lima</li>
 </ol>
