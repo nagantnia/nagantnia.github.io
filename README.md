@@ -11,5 +11,5 @@ index.html <br> pada halaman ini berisi:<br>
 </ol>
 <h2>Fungsionalitas JavaScript</h2>
 <ol>
- <li>satu<li>dua<li>tiga</li>empat<li>lima</li>
+ <li>satu<li>dua<li>tiga</li>empat<li>lidma</li>
 </ol>
