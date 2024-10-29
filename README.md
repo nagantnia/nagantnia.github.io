@@ -21,3 +21,6 @@ index.html <br> pada halaman ini berisi:<br>
 <ol>
  <li>satu<li>dua<li>tiga</li><li>empat</li>
 </ol>
+<h2>Akses Website</h2>
+Pengunjung bisa mengakses webnya dengan mengklik tautan berikut:
+<br>*link
