@@ -239,15 +239,15 @@ button:hover {
     gap: 100px; 
 }
 
-.social-media:link{
+.socialmedia:link{
 	color: white;
 }
 
-.social-media a:link{
+.socialmedia a:link{
 	color: white;
 }
 
-.footer .social-media a {
+.footer .socialmedia a {
     color: white !important;
     text-decoration: none;
     display: flex;
@@ -257,8 +257,8 @@ button:hover {
     z-index: 999;
 }
 
-.social-media a:hover {
-    color: white;
+.socialmedia a:hover {
+    color: red;
 }
 
 .copyright {
