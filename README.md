@@ -13,7 +13,7 @@ index.html <br> pada halaman ini berisi:<br>
 <ol>
  <li>satu<li>dua<li>tiga</li><li>empat</li><li>lima</li>
 </ol>
-<h>Kreatifitas dan Desain</h>
+<h2>Kreatifitas dan Desain</h2>
 <ol>
  <li>satu<li>dua<li></li>
 </ol>
