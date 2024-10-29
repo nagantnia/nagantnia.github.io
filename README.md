@@ -3,5 +3,5 @@ Dibuatnya web ini ialah untuk membantu mencapai kesehatan optimal dan tubuh impi
 <h2>Struktur HTML</h2>
 index.html <br> pada halaman ini berisi:<br>
 <ol>
- <li>satu<li>dua<li>tiga</li>
+ <li>satu<li>dua<li>tiga</li>empat<li>lima</li>
 </ol>
