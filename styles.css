@@ -235,19 +235,10 @@ button:hover {
     display: flex;
     padding: 100px;
     flex-direction: column; 
-    
     gap: 100px; 
 }
 
-.socialmedia:link{
-	color: white;
-}
-
-.socialmedia a:link{
-	color: white;
-}
-
-.footer .socialmedia a {
+.footer .social-media a {
     color: white !important;
     text-decoration: none;
     display: flex;
@@ -257,8 +248,8 @@ button:hover {
     z-index: 999;
 }
 
-.socialmedia a:hover {
-    color: red;
+.social-media a:hover {
+    color: white;
 }
 
 .copyright {
