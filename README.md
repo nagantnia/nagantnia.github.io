@@ -5,8 +5,7 @@ index.html <br> pada halaman ini berisi:<br>
 <ol>
  <li>satu<li>dua<li>tiga</li><li>empat</li><li>lima</li>
 </ol>
-<h3>Desain CSS</h3><br>
-<br>
+<h3>Desain CSS</h3>
 <ol>
  <li>satu<li>dua<li>tiga</li><li>empat</li><li>lima</li>
 </ol>
