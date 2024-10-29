@@ -9,3 +9,4 @@ index.html <br> pada halaman ini berisi:<br>
 <ol>
  <li>satu<li>dua<li>tiga</li><li>empat</li><li>lima</li>
 </ol>
+<h2>Fungsionalitas JavaScript</h2>
