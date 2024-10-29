@@ -23,4 +23,4 @@ index.html <br> pada halaman ini berisi:<br>
 </ol>
 <h2>Akses Website</h2>
 Pengunjung bisa mengakses webnya dengan mengklik tautan berikut:
-<br>*link
+<br>https://nagantnia.github.io/index.html
