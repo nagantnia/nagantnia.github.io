@@ -7,5 +7,5 @@ index.html <br> pada halaman ini berisi:<br>
 </ol>
 <h3>Desain CSS</h3>
 <ol>
- <li>satu<li>dua<li>dua</li><li>tiga</li><li>empat</li>
+ <li>satu<li>dua<li>tiga</li><li>empat</li><li>lima</li>
 </ol>
