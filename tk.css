@@ -23,6 +23,7 @@ body {
 
 
 .header-container {
+    height: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,6 +41,7 @@ body {
     color: rgba(52,204,229,255);
     font-size: 45px;
     font-weight: 700;
+    z-index: 999;
     filter: brightness(1.3);
     text-shadow:  0 0 15px rgba(0, 0, 0, 0.979);
 }
